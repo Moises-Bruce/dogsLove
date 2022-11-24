@@ -2,5 +2,4 @@
 
 ## Para executar o projeto:
 
-npm install
-npm run dev
+npm install -> npm run dev
