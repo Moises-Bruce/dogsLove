@@ -11,8 +11,12 @@ import gato from './images/gato1.svg';
 import agenda from './images/agende.svg';
 import logoCompleta from './images/logo-completo.svg';
 import setaAbaixo from './images/setdown.svg';
+import setaAcima from './images/setup.svg';
 import documento from './images/documents.svg';
 import facebook from './images/facebook.svg';
+import instagram from './images/instagram.svg';
+import youtube from './images/youtube.svg';
+import clickweb from './images/clickweb.svg';
 
 function App() {
   return (
@@ -136,19 +140,41 @@ function App() {
           </div>
 
           <div className='flex justify-between'>
-            <div className='rounded-full bg-green-800 mr-20'>
+            <div className='rounded-full bg-green-800 mr-20 w-20 h-20'>
+              <button>
                 <img src={facebook} className="w-7 h-7 m-7"/>
+              </button>
             </div>
-            <div className='rounded-full bg-green-800 mr-20'>
-                <img src={facebook} className="w-7 h-7"/>
+            <div className='rounded-full bg-green-800 mr-20 w-20 h-20'>
+              <button>
+                <img src={instagram} className="w-7 h-7 m-7"/>
+              </button>
             </div>
-            <div className='rounded-full bg-green-800 mr-20'>
-                <img src={facebook} className="w-7 h-7"/>
+            <div className='rounded-full bg-green-800 mr-20 w-20 h-20'>
+                <button>
+                  <img src={youtube} className="w-7 h-7 m-7"/>
+                </button>
             </div>
           </div>
         </div>
 
+        <div className='flex flex-row'>
+          <p className='text-sm text-white ml-[86px] mt-[72px] pb-10'>Política de privacidade</p>
+          <p className='text-sm text-white mt-[72px] pb-10 mx-5'>.</p>
+          <p className='text-sm text-white mt-[72px] pb-10'>Termos de uso</p>
+          <p className='text-sm text-white mt-[72px] pb-10 mx-5'>.</p>
+          <p className='text-sm text-white mt-[72px] pb-10'>Política de Cookies</p>
+          <p className='text-sm text-white mt-[72px] pb-10 mx-5'>.</p>
+          <p className='text-sm text-white mt-[72px] pb-10'>Política de cancelamento</p>
+        </div>
       </footer>
+      <div className='bg-green-800 w-full h-[90px] flex justify-between items-center'>
+        <p className='font-bold text-xs text-white ml-[86px]'>Pett Love - Relacionamento | CNPJ: 43.660.696/0001-95 </p>
+        <button>
+          <img src={setaAcima} className="w-7 h-4 mr-52"/>
+        </button>
+        <img src={clickweb} className="w-12 h-3 mr-20"/>
+      </div>
     </div>
   )
 }
