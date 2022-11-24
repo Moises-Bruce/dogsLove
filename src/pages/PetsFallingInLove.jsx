@@ -12,6 +12,14 @@ import facebook from '../images/facebook.svg';
 import instagram from '../images/instagram.svg';
 import youtube from '../images/youtube.svg';
 import clickweb from '../images/clickweb.svg';
+import guido from '../images/guido.svg';
+import abigail from '../images/abigail.svg';
+import ellipse from '../images/Ellipse.svg';
+import ellipse2 from '../images/Ellipse2.svg';
+import bingo from '../images/bingo.svg';
+import jade from '../images/jade.svg';
+import lennon from '../images/lennon.svg';
+import jujuba from '../images/jujuba.svg';
 
 function PetsFallingInLove() {
   return (
@@ -45,9 +53,9 @@ function PetsFallingInLove() {
 
           <div className='flex flex-col items-center'>
             <div className='relative flex'>
-              <img className='w-44 h-44 -mr-4 rounded-full' src="https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2021/06/3831_DB45214686FC9B68.jpg?w=1200&h=1200&crop=1" />
+              <img className='w-44 h-44 -mr-4 rounded-full' src={guido} />
               <img className='z-10' src={love} />
-              <img className='w-44 h-44 -ml-4 rounded-full' src="https://www.petlove.com.br/images/breeds/192469/profile/original/pug-p.jpg?1532539387" />
+              <img className='w-44 h-44 -ml-4 rounded-full' src={abigail} />
             </div>
 
             <p className='mt-5 text-center text-lg font-bold text-green-900'>Guido e Abigail</p>
@@ -55,49 +63,49 @@ function PetsFallingInLove() {
 
           <div className='flex flex-col items-center'>
             <div className='relative flex'>
-              <img className='w-44 h-44 -mr-4 rounded-full' src="https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2021/06/3831_DB45214686FC9B68.jpg?w=1200&h=1200&crop=1" />
+              <img className='w-44 h-44 -mr-4 rounded-full' src={ellipse} />
               <img className='z-10' src={love} />
-              <img className='w-44 h-44 -ml-4 rounded-full' src="https://www.petlove.com.br/images/breeds/192469/profile/original/pug-p.jpg?1532539387" />
+              <img className='w-44 h-44 -ml-4 rounded-full' src={ellipse2} />
             </div>
 
-            <p className='mt-5 text-center text-lg font-bold text-green-900'>Guido e Abigail</p>
+            <p className='mt-5 text-center text-lg font-bold text-green-900'>Pancho e Kiwi </p>
           </div>
 
           <div className='flex flex-col items-center'>
             <div className='relative flex'>
-              <img className='w-44 h-44 -mr-4 rounded-full' src="https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2021/06/3831_DB45214686FC9B68.jpg?w=1200&h=1200&crop=1" />
+              <img className='w-44 h-44 -mr-4 rounded-full' src={bingo} />
               <img className='z-10' src={love} />
-              <img className='w-44 h-44 -ml-4 rounded-full' src="https://www.petlove.com.br/images/breeds/192469/profile/original/pug-p.jpg?1532539387" />
+              <img className='w-44 h-44 -ml-4 rounded-full' src={jade} />
+            </div>
+
+            <p className='mt-5 text-center text-lg font-bold text-green-900'>Bingo e Jade</p>
+          </div>
+          <div className='flex flex-col items-center'>
+            <div className='relative flex'>
+              <img className='w-44 h-44 -mr-4 rounded-full' src={lennon} />
+              <img className='z-10' src={love} />
+              <img className='w-44 h-44 -ml-4 rounded-full' src={jujuba} />
+            </div>
+
+            <p className='mt-5 text-center text-lg font-bold text-green-900'>Lennon e Jujuba</p>
+          </div>
+          <div className='flex flex-col items-center'>
+            <div className='relative flex'>
+              <img className='w-44 h-44 -mr-4 rounded-full' src={guido} />
+              <img className='z-10' src={love} />
+              <img className='w-44 h-44 -ml-4 rounded-full' src={abigail} />
             </div>
 
             <p className='mt-5 text-center text-lg font-bold text-green-900'>Guido e Abigail</p>
           </div>
           <div className='flex flex-col items-center'>
             <div className='relative flex'>
-              <img className='w-44 h-44 -mr-4 rounded-full' src="https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2021/06/3831_DB45214686FC9B68.jpg?w=1200&h=1200&crop=1" />
+              <img className='w-44 h-44 -mr-4 rounded-full' src={ellipse} />
               <img className='z-10' src={love} />
-              <img className='w-44 h-44 -ml-4 rounded-full' src="https://www.petlove.com.br/images/breeds/192469/profile/original/pug-p.jpg?1532539387" />
+              <img className='w-44 h-44 -ml-4 rounded-full' src={ellipse2} />
             </div>
 
-            <p className='mt-5 text-center text-lg font-bold text-green-900'>Guido e Abigail</p>
-          </div>
-          <div className='flex flex-col items-center'>
-            <div className='relative flex'>
-              <img className='w-44 h-44 -mr-4 rounded-full' src="https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2021/06/3831_DB45214686FC9B68.jpg?w=1200&h=1200&crop=1" />
-              <img className='z-10' src={love} />
-              <img className='w-44 h-44 -ml-4 rounded-full' src="https://www.petlove.com.br/images/breeds/192469/profile/original/pug-p.jpg?1532539387" />
-            </div>
-
-            <p className='mt-5 text-center text-lg font-bold text-green-900'>Guido e Abigail</p>
-          </div>
-          <div className='flex flex-col items-center'>
-            <div className='relative flex'>
-              <img className='w-44 h-44 -mr-4 rounded-full' src="https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2021/06/3831_DB45214686FC9B68.jpg?w=1200&h=1200&crop=1" />
-              <img className='z-10' src={love} />
-              <img className='w-44 h-44 -ml-4 rounded-full' src="https://www.petlove.com.br/images/breeds/192469/profile/original/pug-p.jpg?1532539387" />
-            </div>
-
-            <p className='mt-5 text-center text-lg font-bold text-green-900'>Guido e Abigail</p>
+            <p className='mt-5 text-center text-lg font-bold text-green-900'>Pancho e Kiwi </p>
           </div>
 
         </div>
@@ -110,9 +118,9 @@ function PetsFallingInLove() {
 
           <div className='flex flex-col items-center'>
             <div className='relative flex'>
-              <img className='w-44 h-44 -mr-4 rounded-full' src="https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2021/06/3831_DB45214686FC9B68.jpg?w=1200&h=1200&crop=1" />
+              <img className='w-44 h-44 -mr-4 rounded-full' src={guido} />
               <img className='z-10' src={love} />
-              <img className='w-44 h-44 -ml-4 rounded-full' src="https://www.petlove.com.br/images/breeds/192469/profile/original/pug-p.jpg?1532539387" />
+              <img className='w-44 h-44 -ml-4 rounded-full' src={abigail} />
             </div>
 
             <p className='mt-5 text-center text-lg font-bold text-green-900'>Guido e Abigail</p>
@@ -120,49 +128,49 @@ function PetsFallingInLove() {
 
           <div className='flex flex-col items-center'>
             <div className='relative flex'>
-              <img className='w-44 h-44 -mr-4 rounded-full' src="https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2021/06/3831_DB45214686FC9B68.jpg?w=1200&h=1200&crop=1" />
+              <img className='w-44 h-44 -mr-4 rounded-full' src={ellipse} />
               <img className='z-10' src={love} />
-              <img className='w-44 h-44 -ml-4 rounded-full' src="https://www.petlove.com.br/images/breeds/192469/profile/original/pug-p.jpg?1532539387" />
+              <img className='w-44 h-44 -ml-4 rounded-full' src={ellipse2} />
             </div>
 
-            <p className='mt-5 text-center text-lg font-bold text-green-900'>Guido e Abigail</p>
+            <p className='mt-5 text-center text-lg font-bold text-green-900'>Pancho e Kiwi </p>
           </div>
 
           <div className='flex flex-col items-center'>
             <div className='relative flex'>
-              <img className='w-44 h-44 -mr-4 rounded-full' src="https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2021/06/3831_DB45214686FC9B68.jpg?w=1200&h=1200&crop=1" />
+              <img className='w-44 h-44 -mr-4 rounded-full' src={bingo} />
               <img className='z-10' src={love} />
-              <img className='w-44 h-44 -ml-4 rounded-full' src="https://www.petlove.com.br/images/breeds/192469/profile/original/pug-p.jpg?1532539387" />
+              <img className='w-44 h-44 -ml-4 rounded-full' src={jade} />
+            </div>
+
+            <p className='mt-5 text-center text-lg font-bold text-green-900'>Bingo e Jade</p>
+          </div>
+          <div className='flex flex-col items-center'>
+            <div className='relative flex'>
+              <img className='w-44 h-44 -mr-4 rounded-full' src={lennon} />
+              <img className='z-10' src={love} />
+              <img className='w-44 h-44 -ml-4 rounded-full' src={jujuba} />
+            </div>
+
+            <p className='mt-5 text-center text-lg font-bold text-green-900'>Lennon e Jujuba</p>
+          </div>
+          <div className='flex flex-col items-center'>
+            <div className='relative flex'>
+              <img className='w-44 h-44 -mr-4 rounded-full' src={guido} />
+              <img className='z-10' src={love} />
+              <img className='w-44 h-44 -ml-4 rounded-full' src={abigail} />
             </div>
 
             <p className='mt-5 text-center text-lg font-bold text-green-900'>Guido e Abigail</p>
           </div>
           <div className='flex flex-col items-center'>
             <div className='relative flex'>
-              <img className='w-44 h-44 -mr-4 rounded-full' src="https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2021/06/3831_DB45214686FC9B68.jpg?w=1200&h=1200&crop=1" />
+              <img className='w-44 h-44 -mr-4 rounded-full' src={ellipse} />
               <img className='z-10' src={love} />
-              <img className='w-44 h-44 -ml-4 rounded-full' src="https://www.petlove.com.br/images/breeds/192469/profile/original/pug-p.jpg?1532539387" />
+              <img className='w-44 h-44 -ml-4 rounded-full' src={ellipse2} />
             </div>
 
-            <p className='mt-5 text-center text-lg font-bold text-green-900'>Guido e Abigail</p>
-          </div>
-          <div className='flex flex-col items-center'>
-            <div className='relative flex'>
-              <img className='w-44 h-44 -mr-4 rounded-full' src="https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2021/06/3831_DB45214686FC9B68.jpg?w=1200&h=1200&crop=1" />
-              <img className='z-10' src={love} />
-              <img className='w-44 h-44 -ml-4 rounded-full' src="https://www.petlove.com.br/images/breeds/192469/profile/original/pug-p.jpg?1532539387" />
-            </div>
-
-            <p className='mt-5 text-center text-lg font-bold text-green-900'>Guido e Abigail</p>
-          </div>
-          <div className='flex flex-col items-center'>
-            <div className='relative flex'>
-              <img className='w-44 h-44 -mr-4 rounded-full' src="https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2021/06/3831_DB45214686FC9B68.jpg?w=1200&h=1200&crop=1" />
-              <img className='z-10' src={love} />
-              <img className='w-44 h-44 -ml-4 rounded-full' src="https://www.petlove.com.br/images/breeds/192469/profile/original/pug-p.jpg?1532539387" />
-            </div>
-
-            <p className='mt-5 text-center text-lg font-bold text-green-900'>Guido e Abigail</p>
+            <p className='mt-5 text-center text-lg font-bold text-green-900'>Pancho e Kiwi </p>
           </div>
 
         </div>
